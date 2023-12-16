@@ -1,23 +1,29 @@
 
-Cd current folder
+## Cd current folder
 
-Run mvn clean install 
+## Run mvn clean install 
 
-Run docker compose up -d
+## Run docker compose up -d
 
-run file: setup.sh
+## run file: setup.sh
 
-run file deploy.sh
+## run file deploy.sh
 
-Done
+## Done
 
-run producer to testing: OrdersDataSource.class
+## run producer to testing: OrdersDataSource.class
 
-apache flink dashboard: http://localhost:8081/
-apache flink: 2 endpoint : job vs task
-http://localhost:9249/
+### Apache flink dashboard: 
+http://localhost:8081/
+### Apache flink: 2 endpoint : job vs task
+http://localhost:9249/  
 http://localhost:9250/
-prometheus dashboard: http://localhost:9090/
+### prometheus dashboard:
+http://localhost:9090/
+
+*** 
+
+Image reference
 
 ![dashboard](./images/dashboard_flink.png)
 
